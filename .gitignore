@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.local
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Data — never commit raw scraped data
+data/raw/
+data/cache/
+*.db
+*.sqlite
+
+# Secrets
+*.pem
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
